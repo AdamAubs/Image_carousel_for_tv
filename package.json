@@ -1,0 +1,28 @@
+{
+  "name": "image-carousel",
+  "version": "1.0.0",
+  "description": "An image carousel project using Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.5.0",
+    "json-loader": "^0.5.7",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
